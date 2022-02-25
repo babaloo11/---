@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(
+        45deg,
+        hsl(285deg 100% 50%) 0%,
+        hsl(293deg 100% 47%) 9%,
+        hsl(301deg 100% 46%) 18%,
+        hsl(308deg 100% 48%) 27%,
+        hsl(315deg 100% 50%) 36%,
+        hsl(324deg 100% 50%) 45%,
+        hsl(336deg 100% 54%) 55%,
+        hsl(354deg 100% 62%) 64%,
+        hsl(336deg 100% 66%) 73%,
+        hsl(278deg 87% 76%) 82%,
+        hsl(205deg 100% 68%) 91%,
+        hsl(189deg 100% 50%) 100%
+      );
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    background-size: 200% 200%;
+    animation: gardient 10s ease infinite ;
+}
+@keyframes gardient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+button {
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+button:hover{
+    background-color: rgba(240, 248, 255, 0);
+    transition: 0.5s;
+}
+input{
+    padding: 5px;
+}
